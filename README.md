@@ -36,7 +36,7 @@ However, selecting the best DBMS involves more than just aggregating these value
  
 This formula helps determine the DBMS that offers the highest performance relative to its resource demands.
 
-Visualization:
+# Visualization:
 To make the comparison more visual, I created a clustered column chart to represent the costs of each DBMS. The chart focuses on column Q, which contains the summed cost data for DBMS A to DBMS D. This provides a quick, visual reference for comparing how cost-efficient each system is in relation to the others.
 
 Conclusion:
