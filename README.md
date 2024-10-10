@@ -39,5 +39,5 @@ This formula helps determine the DBMS that offers the highest performance relati
 # Visualization:
 To make the comparison more visual, I created a clustered column chart to represent the costs of each DBMS. The chart focuses on column Q, which contains the summed cost data for DBMS A to DBMS D. This provides a quick, visual reference for comparing how cost-efficient each system is in relation to the others.
 
-Conclusion:
+# Conclusion:
 By calculating the performance-to-resource ratio and visualizing the costs, the company can easily identify the best DBMS. The system with the highest Rating (best performance and least resource consumption) is recommended for implementation.
