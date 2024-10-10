@@ -2,7 +2,7 @@
 This project compares four DBMS options (A to D) based on performance, cost, maintenance time, and men required. Using SUMIF formulas, I calculated a performance-to-resource ratio (Rating) and identified the best DBMS. Results are visualized through a clustered column chart for easy comparison.
 
 
-Problem Statement :
+# Problem Statement :
 DBMS Comparison Analysis for Optimal Selection
 
 As a company grows, choosing the right database management system (DBMS) becomes critical to optimizing operational performance, reducing costs, and ensuring resource efficiency. In this scenario, the company has four DBMS options—DBMS A, DBMS B, DBMS C, and DBMS D—and seeks to identify the best one based on key performance aspects, including:
@@ -12,12 +12,12 @@ Time Taken: Hours spent on upkeep and management.
 Men Required: Number of personnel needed to maintain the DBMS.
 
 
-Analysis Process:
+# Analysis Process:
 To start, data from January to December was collected for each DBMS on the aspects mentioned. The goal was to sum up these values for each DBMS and identify the best one based on an analysis that maximizes performance while minimizing cost, time taken, and men required.
 
 I used the SUMIF formula to aggregate data for each aspect (Performance, Cost, Time Taken, and Men Required) separately for each DBMS. The formula allowed me to conditionally sum values, simplifying the process of evaluating each DBMS across these metrics.
 
-SUMIF Formula:
+# SUMIF Formula:
 For DBMS A Performance:
 
 
@@ -31,7 +31,7 @@ After calculating the sums of each aspect for each DBMS, I compiled the results 
 However, selecting the best DBMS involves more than just aggregating these values. The Performance should be high, while Cost, Time Taken, and Men Required should be as low as possible. To quantify this balance, I created a ratio for each DBMS, using:
 
 
-Rating= Performance/(Cost+ Time Taken+ Men Required)
+# Rating= Performance/(Cost+ Time Taken+ Men Required)
 ​
  
 This formula helps determine the DBMS that offers the highest performance relative to its resource demands.
